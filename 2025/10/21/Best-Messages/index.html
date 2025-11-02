@@ -154,7 +154,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -294,6 +294,9 @@
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2025/10/25/%E3%80%90Episode-4%E3%80%91%E9%9B%AA%E9%99%86/" rel="next" title="【Episode 4】雪陆">
+                  【Episode 4】雪陆 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -384,10 +387,10 @@ setInterval("createtime()",250);
 
 <script>
 NexT.utils.loadComments('#waline-comments', () => {
-  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js', () => {
+  NexT.utils.getScript('https://fastly.jsdelivr.net/npm/@waline/client/dist/Waline.min.js', () => {
     new Waline(Object.assign({
       lang: 'zh-Hans'
-    }, {"enable":true,"serverURL":"www.hnsszknext.eu.org","placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":true,"comment_count":true,"requiredFields":["nick"],"locale":{"placeholder":"无需登录·在上方填入邮箱可以接收回复·来说两句吧~"},"lang":"zh-cn","libUrl":null,"login":"enable"}, {
+    }, {"enable":true,"serverURL":"www.hnsszknext.eu.org","placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":true,"comment_count":true,"requiredFields":["nick"],"locale":{"placeholder":"无需登录·在上方填入邮箱可以接收回复·来说两句吧~"},"lang":"zh-cn","libUrl":"https://fastly.jsdelivr.net/npm/@waline/client/dist/Waline.min.js","login":"enable"}, {
       el: '#waline-comments',
       path: "/2025/10/21/Best-Messages/",
     }));

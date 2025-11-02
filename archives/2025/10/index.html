@@ -152,7 +152,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -188,13 +188,53 @@
   <div class="post-block">
     <div class="post-content">
       <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 4 篇日志。 继续努力。</span>
+        <span class="collection-header">嗯..! 目前共计 6 篇日志。 继续努力。</span>
       </div>
 
       
     <div class="collection-year">
       <span class="collection-header">2025</span>
     </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <div class="post-meta-container">
+        <time itemprop="dateCreated"
+              datetime="2025-10-30T23:41:07+08:00"
+              content="2025-10-30">
+          10-30
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2025/10/30/%E3%80%90Episode-5%E3%80%91%E5%A6%84%E6%83%B3%E5%93%80%E6%AD%8C/" itemprop="url">
+            <span itemprop="name">【Episode 5】妄想哀歌</span>
+          </a>
+      </div>
+
+      
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <div class="post-meta-container">
+        <time itemprop="dateCreated"
+              datetime="2025-10-25T15:48:54+08:00"
+              content="2025-10-25">
+          10-25
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2025/10/25/%E3%80%90Episode-4%E3%80%91%E9%9B%AA%E9%99%86/" itemprop="url">
+            <span itemprop="name">【Episode 4】雪陆</span>
+          </a>
+      </div>
+
+      
+    </header>
+  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -361,10 +401,10 @@ setInterval("createtime()",250);
 
 <script>
 NexT.utils.loadComments('#waline-comments', () => {
-  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js', () => {
+  NexT.utils.getScript('https://fastly.jsdelivr.net/npm/@waline/client/dist/Waline.min.js', () => {
     new Waline(Object.assign({
       lang: 'zh-Hans'
-    }, {"enable":true,"serverURL":"www.hnsszknext.eu.org","placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":true,"comment_count":true,"requiredFields":["nick"],"locale":{"placeholder":"无需登录·在上方填入邮箱可以接收回复·来说两句吧~"},"lang":"zh-cn","libUrl":null,"login":"enable"}, {
+    }, {"enable":true,"serverURL":"www.hnsszknext.eu.org","placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":true,"comment_count":true,"requiredFields":["nick"],"locale":{"placeholder":"无需登录·在上方填入邮箱可以接收回复·来说两句吧~"},"lang":"zh-cn","libUrl":"https://fastly.jsdelivr.net/npm/@waline/client/dist/Waline.min.js","login":"enable"}, {
       el: '#waline-comments',
       path: "/archives/2025/10/",
     }));
